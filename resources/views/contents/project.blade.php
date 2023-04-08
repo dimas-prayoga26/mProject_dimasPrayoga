@@ -198,6 +198,7 @@
                 processing: true,
                 serverSide: true,
                 autoWidth: false,
+                pageLength:5,
                 ajax: {
                     url: '{{ route('project-datatable') }}',
                     data: function(d) {
