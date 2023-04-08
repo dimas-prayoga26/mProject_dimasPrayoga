@@ -75,8 +75,12 @@ class ProjectController extends Controller
     public function update(Request $request, $id)
     {
         $request->validate([
-            'project_name' => 'required',
-            'client_id' => 'required',
+            // 'project_name' => 'required',
+            // 'client_id' => 'required',
+            // 'project_start_date' => 'required',
+            // 'project_end_date' => 'required',
+            // 'project_status' => 'required',
+            
         ]);
 
         Project::find($id)->update([
