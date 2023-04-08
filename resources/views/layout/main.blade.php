@@ -14,7 +14,7 @@
 		<title> @yield('title', 'Virtual Technopark') </title>
 
 		<!--- Favicon --->
-		<link rel="icon" href="{{ asset('virtual/assets/img/fav.png') }}" type="image/x-icon"/>
+		{{-- <link rel="icon" href="{{ asset('virtual/assets/img/fav.png') }}" type="image/x-icon"/> --}}
 
 		<!-- Bootstrap css -->
 		<link href="{{ asset('virtual/assets/plugins/bootstrap/css/bootstrap.css') }}" rel="stylesheet" id="style"/>
